@@ -103,5 +103,11 @@ public class NationalHQ extends Station{
 	    @Override
 	    public String toString() {
 	    	return "NationalResults infos: "+ this.getLocation() + "  " + this.getOfficer() + " " + this.getNumberOfVotes();
-	    } 
+	    }
+		//main method
+		public static void main(String[] args){
+			NationalHQ nationalHQ= new NationalHQ();
+			System.out.print(nationalHQ.collateRegionalOffice());
+
+		} 
 }
